@@ -1,0 +1,437 @@
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:40%;
+    height:100%;
+    padding:10px 10px 10px 10px;
+   
+}
+
+body,html {
+    margin:0;
+    padding:0;
+}
+
+.backcolor{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 48
+}
+a{
+    text-decoration: none;
+}
+.checkincontainer{
+    width: 100%;
+margin-right: auto;
+margin-left: auto;
+padding-right: 8px;
+padding-left: 8px;
+box-sizing: border-box;
+}
+.iconone{
+    margin: auto;
+}
+.onesec{
+    display: flex;
+    flex-direction: row;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    line-height: 2%;
+}
+.plan:hover{
+    
+   background-color: white;
+    font-weight: 800;
+    text-align: center;
+    height: 100%;
+}
+.plantextone:hover{
+    color:blue;
+}
+.plantext{
+    font-weight: 900;
+   font-size: 20px;
+}
+.plantexttwo {
+    font-weight: 900; 
+}
+.plantexttwo:hover{
+    color:blue;
+    font-size: 30px;
+}
+.web{
+    display: flex;
+    flex-direction:column;
+    width: 80%;
+}
+
+.ticketform{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.tickadj{
+    width:40%;
+    
+}
+.tickadj:hover{
+border-color: blue;
+}
+.search{
+
+    width:100%;
+    background-color: #273fad;
+    color: white;
+    padding:10px 30px 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.searchbutton{
+    padding-top: 3%;
+    margin-left: 80%;
+}
+.webimg{
+    width: 80%;
+    padding-top:8%;
+    padding-left: 10%;
+}
+.webtext{
+    font-weight: 900;
+    font-size: 30px;
+}
+.state{
+   width:30%;
+   
+    border:2px solid;
+display: flex;
+flex-direction: row;
+background-color: white;
+}
+.statehd{
+    font-size: 20px;
+  
+}
+.stateadj{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:80%;
+}
+.stateimg{
+    height:30%;
+    width:30%;
+  margin: auto;
+
+}
+.textcnt{
+    display: flex;
+    flex-direction: column;
+padding-left: 3%;
+
+}
+
+
+
+.headtext{
+    color:white;
+    
+    font-size:20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.headimage{
+    height:50px;
+padding:20px;
+
+}
+.header{
+    display:flex;
+   flex-direction:row;
+   align-items: center;
+}
+.categories{
+    width: 100%;
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.subcat{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.textlink{
+   color: aliceblue;
+  text-decoration:none;
+ 
+}
+.textdec{
+    display: inline;
+    font-weight: 600;
+}
+.backcolor{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 48
+}
+.searchbutton{
+  padding-top: 5%;
+}
+.icon{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    
+    
+}
+.icons{
+    font-size: 30px;
+    color: white;
+  
+    
+}
+.allpsg{
+    font-size: 25px;
+}
+.webtexttwo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    color: #0f1923;
+    cursor: pointer;
+    position: relative;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all .15s ease;
+  }
+  
+  .button::before,
+  .button::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid #7D8082;
+    transition: all .15s ease;
+  }
+  
+  .button::before {
+    top: 0;
+    border-bottom-width: 0;
+  }
+  
+  .button::after {
+    bottom: 0;
+    border-top-width: 0;
+  }
+  
+  .button:active,
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:active::before,
+  .button:active::after {
+    right: 3px;
+    left: 3px;
+  }
+  
+  .button:active::before {
+    top: 3px;
+  }
+  
+  .button:active::after {
+    bottom: 3px;
+  }
+  
+  .button_lg {
+    position: relative;
+    display: block;
+    padding: 20px 30px;
+    color: #fff;
+    background-color: #0f1923;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+  }
+  
+  .button_lg::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #0f1923;
+  }
+  
+  .button_lg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: #0f1923;
+    transition: all .2s ease;
+  }
+  
+  .button_sl {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    left: -8px;
+    width: 0;
+    background-color: #ff4655;
+    transform: skew(-15deg);
+    transition: all .2s ease;
+  }
+  
+  .button_text {
+    position: relative;
+  }
+  
+  .button:hover {
+    color: #0f1923;
+  }
+  
+  .button:hover .button_sl {
+    width: calc(100% + 15px);
+  }
+  
+  .button:hover .button_lg::after {
+    background-color: #fff;
+  }
+  .form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+height: 150%;
+ border-bottom: #273fad;
+ 
+  }
+ 
+  
+ 
+.inditext{
+    width:30%;
+    height:200%;
+  border-bottom: 1px solid;
+
+    font-weight: 900;
+}
+.inditext:hover{
+  background: linear-gradient(90deg, #0017F7 0%, #fff 100%);
+}
+  .bgset{
+   
+    background: url(https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408-825x465.jpg) ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .allpsg{
+    color: white;
+    font-weight: 900;
+  }
+  .topheads{
+    color: white;
+  }
+  .topheads:hover{
+    color:black;
+    background-color: white;
+    background-size: cover;
+    width:50%;
+   text-align: center;
+  }
+  .decodeco{
+  color:black;
+  font-size: 15px;
+  }
+ .travelinfo{
+    background: #FFFDE4;
+ }
+ .trvtxt{
+    font-size: 20px;
+    font-weight: 900;
+ }
+ .trvtxtone{
+    font-size: 18px;
+ }
+ .extratxt{
+    font-weight: 900;
+    font-size: 20px;
+ }
+ .ad{
+    margin-bottom: 0px !important;
+    font-size: 13px;
+    color: #999999;
+    background-color: white;
+    width:20%;
+    text-align: center;
+ }
+ .adimg{
+    padding-top: 2%;
+ }
+.allpsg:hover{
+background-color: white;
+text-align: center;
+color:black;
+}
+.toptext:hover{
+  border:2px solid black;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #24ADDC 79%, #0FCCE0 87%, #051072 100%);
+  height:50%;
+  width:150%;
+  color:white;
+text-align: center;
+padding:3px 5px 3px 5px;
+}
+.top{
+  padding: 2px 5px 2px 5px;
+}
+.webadj:hover{
+  width:30%;
+
+
+}

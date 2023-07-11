@@ -1,0 +1,270 @@
+.navimgone{
+padding-left: 10%;
+}
+
+.navbar{
+    background-image: url(https://images.unsplash.com/photo-1513415564515-763d91423bdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80),linear-gradient(rgb(255, 255, 255), rgba(4, 4, 4)); 
+    mask-image: linear-gradient(0deg, white, white, white,white,white, transparent);
+      -webkit-mask-image: linear-gradient(0deg,
+          white,
+          white,
+          white,
+          transparent);
+          background-color: #cccccc;
+  height: auto;
+ 
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+body{
+height:100%;
+margin: 0;
+padding: 0;
+}
+.navtexts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:50%;
+    margin:auto;
+    position: relative;
+ left: 18%;
+  padding: 10px;
+  
+}
+
+.navcontainer{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+ background-color: white;
+   
+   
+}
+.navtextdec{
+    font-weight: 900;
+    border-color: red 2px solid;
+    font-size: 21px;
+   
+    height: 100%;
+}
+
+.donatebutton{
+    margin: auto;
+ padding-left: 20%;
+}
+.donatebtn{
+    padding:15px 28px 15px 28px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navtextstwo{
+    padding-top: 30%;
+    padding-left: 3%;
+    line-height: 19px;
+}
+.nactexttwodec{
+    color:white;
+    font-weight: 900;
+    line-height: 0;
+    font-size: 54px;
+    letter-spacing: 0.216em;
+    
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+  
+}
+.nactexttwodecone{
+    color: red;
+    font-size: 27px;
+    line-height: 1.1;
+    letter-spacing: 0.137em;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 0.6;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+
+}
+.loremadj{
+color:white;
+
+word-spacing: 5px;
+line-height: 41px;
+font-size: 25px;
+letter-spacing: 0.156em;
+font-weight: 700;
+font-style: italic;
+
+}
+.learnbutton{
+    padding-left:3%;
+    padding-bottom: 5%;
+}
+.learnbtn{
+    padding:13px 19px 13px 19px;
+    font-size: 16px;
+    letter-spacing: 0.156em;
+    color:white;
+background-color: red;
+
+    border-radius: 5px;
+    border-color: red;
+    cursor: pointer;
+}
+
+
+.constructioncard{
+  
+ display: block;
+ margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  background-color: pink;
+  
+    width: 80%;
+   box-sizing: border-box;
+   border:1px solid pink;
+    border-radius: 10px;
+}
+.tempimg{
+    border:1px solid pink;
+    border-radius: 10px;
+}
+.textadj{
+    display: flex;
+    flex-direction: row;
+    
+}
+.consttextadj{
+    background-color:pink;
+    width:100%;
+    padding-left: 2%;
+    border:1px solid pink;
+    border-radius: 10px;
+}
+.consttextone{
+    color:white;
+font-size: 36px;
+font-weight: 900;
+color:red;
+}
+.consttexttwo{
+    font-size: 20px;
+}
+.constdonatebtn{
+ padding:30px 10px 10px 10px;
+}
+.constdonate{
+    background-color: pink;
+    font-size: 18px;
+line-height: 1.4;
+letter-spacing: 0.071em;
+font-weight: 500;
+color:red;
+border:2px solid red;
+border-radius:10px;
+padding:12px 28px 12px 28px;
+}
+.cardtwo{
+    display:block;
+    margin-top: 3%;
+       margin-left: auto;
+       margin-right: auto;
+    
+    
+       width: 80%;
+}
+
+.cardtwoimg{
+    border:1px solid white;
+    border-radius: 10px;
+    width:100%;
+    
+}
+.textadjtwo{
+    display: flex;
+    flex-direction: row;
+   
+}
+.cardtwocontext{
+    padding-left: 2%;
+
+}
+.cardtwotextadj{
+    display:inline;
+margin: 0;
+font-size: 51px;
+
+
+}
+.borderunder{
+    border-bottom:5px solid red ;
+    margin: 0;
+    width:23%;
+}
+.cardtwoimgtwo{
+    width:30%;
+  
+
+}
+.cardtwodescription{
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+}
+.ourcards{
+    margin-left: 10%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.ourmissioncard{
+    font-size: 32px;
+    line-height: 1.3;
+    letter-spacing: 0.025em;
+    font-weight: 600;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+.borderunderone{
+    border-bottom: 5px red solid;
+    width:8%;
+    margin: 0;
+    padding: 0;
+}
+.ourtextsdec{
+    display: inline;
+}
+.ourtextdectwo{
+    word-break: break-all;
+}
+.cardtwodescriptionone{
+    font-weight: 400;
+    width:50%;
+    font-size: 14px;
+
+}
+.upcomingcard{
+    margin-left: 10%;
+    margin-top: 3%; 
+}
+h1{
+    display: inline;
+}
+.borderundertwo{
+    border-bottom: 5px solid red;
+    width:8%;
+    margin: 0;padding: 0;
+}

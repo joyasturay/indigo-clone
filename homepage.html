@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indigo</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+<body class="backcolor">
+  
+  <!-- <div id="backdrop" class="backdrop" onclick="showdropdown(this.id)"></div> -->
+  <div class="container">
+    <div class="header">
+        <a href="#" class="textlink"><span class="material-symbols-outlined icon">menu</span></a>
+        <img src="https://static.goindigo.in/content/dam/indigov2/sme/icIndigoLogoWhiteR-new.svg" alt="">
+  <div class="categories">
+    <div class="subcat">
+    <a href="#" class="textlink"> <p class="textdec">Book</p></a><span class="material-symbols-outlined icons">
+      expand_more
+      </span>
+    <a href="/checkin.html" class="textlink"><p class="textdec" >Check-in</p></a>
+    <a href="#" class="textlink"><p class="textdec" >Manage</p></a><span class="material-symbols-outlined icons">
+      expand_more
+      </span>
+    <a href="#" class="textlink"><p class="textdec" >6E-Rewards</p></a>
+    <a href="#" class="textlink"><p class="textdec" >info</p></a><span class="material-symbols-outlined icons">
+      expand_more
+      </span>
+    <a href="#" class="textlink"><p class="textdec" >Login</p></a><span class="material-symbols-outlined icons">
+      expand_more
+      </span>
+    </div>
+  </div>
+    </div>
+  </div>
+  <div class="ticketbooking">
+   
+    <div class="tickrowone">
+      <div class="rowonedec">
+        <div id="dropdownbtn" class="oneway" onclick="showdropdown(this.id)">
+       <p> <span class="material-symbols-outlined iconone">arrow_right_alt</span><p>One Way</p></p>
+        <span class="material-symbols-outlined icontwo">
+          arrow_drop_down
+          </span>
+        </div>
+        <div id="mydropdown" class="dropdown hidden">
+          <div class="dropdown-content">
+            <p class="dec">1 Adult</p>
+            <p class="decone">1 Child</p>
+            <p class="dectwo">1 Infant</p>
+          </div>
+        </div>
+        <div id="dropdownbtn2" class="oneway" onclick="showdropdown(this.id)">
+          
+          <span class="material-symbols-outlined icontwo">
+            person
+            </span>
+        <p>1 pax</p>
+        <span class="material-symbols-outlined icontwo">
+          arrow_drop_down
+          </span>
+        </div>
+        <div id="mydropdown2" class="dropdown2 hidden">
+          <div class="dropdown-content">
+            <p>1 Newbie</p>
+            <p>1 Pro</p>
+            <p>1 Legend</p>
+          </div>
+        </div>
+        <div class="onewayone">
+        <p>Special fares</p>
+        <span class="material-symbols-outlined icontwo">
+          arrow_drop_down
+          </span>
+        </div>
+      </div>
+      <div class="rowonedectwo">
+        <div class="oneway">
+        <p>Indian Rupees</p>
+        <span class="material-symbols-outlined icontwo">
+          arrow_drop_down
+          </span>
+        </div>
+        
+      </div>
+     
+   
+    </div>
+    <div class="ticketform">
+     
+      <form>
+        <label for="from" class="from"></label><br>
+        <input type="text" class="inputfield" id="fname" name="fname" value="Delhi(del)" placeholder="From"><br>
+        <p><span class="material-symbols-outlined iconthree">
+          sync_alt
+          </span></p>
+        <label for="from"></label><br>
+        <input type="text" id="lname" name="lname" class="inputfield" placeholder="To">
+        
+          <label for="travel" class="travel"></label><br>
+          <input type="text" id="lname" name="lname" class="inputfield" value="12 Apr 2023 -  "placeholder="Return trip">
+         
+          <button class="searchflight">SearchFlight</button>
+         <p class="traveldate"></p>
+      </form>
+     
+    </div>
+  </div>
+    
+<div class="carousel">
+  <img src="https://aviationsourcenews.com/wp-content/uploads/2022/08/IndiGo_Airbus_A320neo_VT-IJD-1.jpg" class="bannerone"> <!--0-->
+  <img src="https://source.unsplash.com/random/?india&1" class="hidden bannerone"> <!--1-->
+  <img src="https://source.unsplash.com/random/?india&2" class="hidden bannerone"> <!--2-->
+  <img src="https://source.unsplash.com/random/?india&3" class="hidden bannerone"> <!--3-->
+  <img src="https://source.unsplash.com/random/?india&4" class="hidden bannerone"> <!--3-->
+  <img src="https://source.unsplash.com/random/?india&5" class="hidden bannerone"> <!--3-->
+  <img src="https://source.unsplash.com/random/?india&6" class="hidden bannerone"> <!--3-->
+</div>
+
+<div class="offerssection">
+  <p class="offers">Offers</p>
+<div class="viewdec">
+  <p class="viewall ">View all</p>
+  <span class="material-symbols-outlined iconfour">
+    switch_right
+    </span>
+</div>
+
+</div>
+<div class="offerscard">
+  <div class="hsbc">
+    <p class="cashback cashdec">Cashback upto 5%</p>
+    <p class="cashback">Using HSBC Credit Cards</p>
+    <img class=" lazyloaded" src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/offers/2022/HSBC.png" data-src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/offers/2022/HSBC.png" title="HSBC" alt="HSBC">
+  <div class="exp">
+    <p class="expires">Expires: 30/06/2023</p>
+    <p class="expires">T&C</p>
+    </div>
+    
+  </div>
+  <div class="vaxi">
+    <p class="cashback cashdec">Upto 10% off </p>
+    <p class="cashback">Using Vaxi Fare</p>
+    <img class=" lazyloaded" src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/offers/2022/Vaxi-Fare.png" data-src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/offers/2022/Vaxi-Fare.png" title="Vaxi-Fare" alt="Vaxi-Fare">
+    <div class="exp">
+      <p class="expires">Expires: 30/06/2023</p>
+      <p class="expires">T&C</p>
+      </div>
+  </div>
+  <div class="bag">
+    <p class="cashback cashdec">Doorstep Baggage </p>
+    <p class="cashback">Transfers using 6E Bagport</p>
+    <img class=" lazyloaded" src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/offers/2022/IndiGo-Bagport.png" data-src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/offers/2022/Vaxi-Fare.png" title="Vaxi-Fare" alt="Vaxi-Fare">
+    
+    <div class="exp">
+      <p class="expires">Expires: No Expiry</p>
+      <p class="expires">T&C</p>
+      </div>
+  </div>
+  <div class="hsbc">
+    <p class="cashback cashdec">Up to 6% reward</p>
+    <p class="cashback">Points using 6E Rewards</p>
+    
+    <img class=" lazyloaded" src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/offers/2022/6ERewards.png" data-src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/offers/2022/Vaxi-Fare.png" title="Vaxi-Fare" alt="Vaxi-Fare">
+    <div class="exp">
+      <p class="expires">Expires: No Expiry</p>
+      <p class="expires">T&C</p>
+      </div>
+  </div>
+</div>
+<h2 class="SIXE">6E Services</h2>
+<div class="serve">
+  <p class="food">Food & Beverage</p>
+  <p class="food">Baggage</p>
+  <p class="food">Combo</p>
+  <p class="food">Airport Services</p>
+  <p class="food">Trip Assurance</p>
+  <p class="food">Discover More</p>
+</div>
+<hr style="color:aquamarine" />
+<div class="hungry">
+  <div class="hungrycard">
+    <img src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/6E-Topup/homepage-facelift/6etiffin.jpg" class="picture-img bckgrd-effect  hungerimg" data-src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/6E-Topup/homepage-facelift/6etiffin.jpg" alt="6E Tiffin" title="6E Tiffin">
+<p class="hungrytext">6E Tiffin</p>
+<p class="hungrytext">22 delectable now onboard.Bookings open</p>
+  </div>
+  <div class="hungrycard ">
+    <img src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/6E-Topup/homepage-facelift/6E-bar.jpg" class="picture-img bckgrd-effect  hungerimg" data-src="//static.goindigo.in/content/dam/indigov2/6e-website/homepage/6E-Topup/homepage-facelift/6etiffin.jpg" alt="6E Tiffin" title="6E Tiffin">
+<p class="hungrytext">6E Bar</p>
+<p class="hungrytext">Pre-Book your favourite alcoholic beverage ,and save over 15%</p>
+  </div>
+</div>
+<hr style="color:aquamarine"/>
+<div class="footsec">
+  <footer class="foot">
+    <div class="knowus">
+      
+      <p class="footheader ">Get to Know Us</p>
+      <p class="footsub">About Us</p>
+      <p class="footsub">About Us</p>
+      <p class="footsub">About Us</p>
+    </div>
+      <div class="knowus">
+      <p class="footheader">Services</p>
+      <p class="footsub">About Us</p>
+      <p class="footsub">About Us</p>
+      <p class="footsub">About Us</p>
+      </div>
+      <div class="knowus">
+      <p class="footheader">Quick Links</p>
+      <p class="footsub">About Us</p>
+      <p class="footsub">About Us</p>
+      <p class="footsub">About Us</p>
+      </div>
+      <div class="knowus">
+      <p class="footheader">Social</p>
+    
+       <img src="" class="fbicon.png" class=" footimg">
+  <img src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png" class="footsub footimg">
+      </div>
+  </footer>
+</div>
+<script>
+  function showdropdown(e) {
+    var x;
+    if(e=="dropdownbtn"){
+    x = document.getElementById("mydropdown");
+    }
+    else if(e=="dropdownbtn2"){
+      x = document.getElementById("mydropdown2");
+    }
+    x.classList.toggle("hidden");
+    if(e=="backdrop" && x.classList.contains("hidden")==false){
+      x.classList.add("hidden");
+    }
+  }
+  
+</script>
+<script>
+  // document.getElementById("")
+  var slides = document.getElementsByClassName("bannerone")
+  var start = 0;
+  function slider(){
+    if(start<slides.length-1){
+      start = start+1;
+    }
+    else{
+      start = 0;
+    }
+    if(start == 0){
+      slides[slides.length-1].classList.add("hidden")
+    }
+    else{
+      slides[start-1].classList.add("hidden")
+    }
+    slides[start].classList.remove("hidden")
+  }
+
+  setInterval(slider,2000) //2000 ms = 2 s
+z</script>
+</body>
+
+</html>
